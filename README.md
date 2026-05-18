@@ -36,10 +36,12 @@ Execute esse comando 5 vezes no terminal para ver o alerta vermelho.
 
 ## Exemplo de output
 
+```
 [INFO] Monitorando: auth.log
 [AVISO] Falha do IP 45.33.32.156 (1/5)
 [AVISO] Falha do IP 45.33.32.156 (4/5)
 [ALERTA] 5 falhas do IP 45.33.32.156 nos últimos 60s!
+```
 
 ## Conceitos aplicados
 
