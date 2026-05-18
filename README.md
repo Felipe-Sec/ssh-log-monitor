@@ -61,3 +61,18 @@ Execute esse comando 5 vezes no terminal para ver o alerta vermelho.
 Projeto desenvolvido com auxílio de IA como ferramenta de estudo.
 O foco foi compreender cada decisão técnica: por que o `defaultdict`,
 por que o `f.seek`, como funciona a janela de tempo — não apenas fazer funcionar.
+
+## Observações
+
+O arquivo `auth.log` não está incluído no repositório pois é gerado localmente durante os testes.
+Para usar o projeto, crie um arquivo vazio com o nome `auth.log` na mesma pasta do `monitor.py`:
+
+**Windows:**
+```powershell
+New-Item auth.log -ItemType File
+```
+
+**Linux/Mac:**
+```bash
+touch auth.log
+```
